@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,12 +22,13 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <!-- header -->
         <div class="container">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg position-fixed" style="width: 50%">
                 <div class="container-fluid">
                     <a class="navbar-brand text-light" href="#">AlejandroMartínez</a>
 
-                    <div class="d-flex justify-content-between">
+                    <div style="display: flex; justify-content: space-between;">
                         <button class="navbar-toggler" type="button"
                             data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent"
@@ -44,11 +45,17 @@
                                         aria-current="page" href="#">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-light" href="#">Quién soy?</a>
+                                    <a class="nav-link text-light" href="#quiensoy">Quién soy?</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-light" href="#">Trabajos que
+                                    <a class="nav-link text-light" href="#trabajos">Trabajos que
                                         destaco</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#tecnologia">Tecnología que domino</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#contacto">Contacto</a>
                                 </li>
 
                             </ul>
@@ -58,6 +65,7 @@
                 </div>
             </nav>
         </div>
+        <!-- fin del header -->
         <div class="container">
             <div class="row">
                 <div class="col-6 d-flex align-items-center">
@@ -73,7 +81,7 @@
                         style="max-height: 900px;">
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="quiensoy">
                 <div class="col-5 text-light" style="background: url('bg-col1-row2.png') no-repeat;">
                     <h2 class="mb-5">Quien <span class="titular">soy?</span></h2>
                     <p>Siempre he sido un entusiasta de la tecnología digital en comunicaciones. Estudié periodismo (Unab), cursé el diplomado de Comunicación Digital (ICEI, Ude Chile). Mi pasión por la programación ha sido de autodidacta y he logrado compatibilizar 
@@ -90,7 +98,7 @@
         </div>
     <main>
         <div class="container">
-            <div class="row">
+            <div class="row" id="trabajos">
                 <div class="col" style="padding-top: 200px;">
                     <h2>Los trabajos que <span class="titular">destaco</span></h2>
                     <div class="d-flex justify-content-between my-5">
@@ -115,7 +123,7 @@
             </div>
         </div>
     </main>
-<div class="container">
+<div class="container" id="contacto">
     <div class="row">
         <div class="col-6 d-flex align-items-center">
             <div>
