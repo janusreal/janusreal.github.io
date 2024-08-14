@@ -1,1 +1,22 @@
-Iconos Tech.zip
+*.zip
+ATS office manager resume.docx
+ATS_office_manager_resume.docx
+Caso Salas Operaciones (Python).docx.pdf
+Desafío evaluado - CV estándar (Apoyo).pdf
+Desafío evaluado - CV estándar (Apoyo).xlsx
+aplicacion_django.pem
+
+# Ignorar todos los archivos .log
+*.log
+
+# Ignorar un archivo específico
+Iconos Tech/*
+
+# Ignorar todos los archivos en una carpeta específica
+prueba/*
+
+# Ignorar una carpeta completa
+#/ruta/a/la/carpeta/
+
+# Ignorar archivos de un tipo específico en una carpeta
+#/ruta/a/la/carpeta/*.txt
