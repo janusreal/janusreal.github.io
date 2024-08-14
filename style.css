@@ -25,7 +25,9 @@ h1 {
     font-size: 55px;
   }
 
-
+ul li{
+  list-style: none;
+}
 .titular{
     color: #99a19a;
 }
@@ -80,7 +82,5 @@ input::-webkit-input-placeholder {
   .fondo-formulario{
     background: url('bg-row3-col2.png') no-repeat center;
   }
-
-
 
   
