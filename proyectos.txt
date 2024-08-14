@@ -13,6 +13,8 @@ Un portafolio que nos guste y 2 pantallazos + Link
 
 Template para uso de mi portafolio
 
-Crear un perfil en github
+Crear un perfil en github:
+
+janusreal.github.io
 
 
