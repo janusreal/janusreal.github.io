@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.zip
 ATS office manager resume.docx
 ATS_office_manager_resume.docx
@@ -20,3 +21,6 @@ prueba/*
 
 # Ignorar archivos de un tipo específico en una carpeta
 #/ruta/a/la/carpeta/*.txt
+=======
+Iconos Tech.zip
+>>>>>>> 18c04178dd5adb6e2811f68331247716cf4251eb
