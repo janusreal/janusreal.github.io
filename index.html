@@ -20,6 +20,29 @@
             rel="stylesheet">
 
         <link rel="stylesheet" href="style.css">
+
+        <style>
+  .tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .tech-item img {
+    max-width: 60px; /* ajusta el tamaño de los íconos */
+    height: auto;
+    margin-bottom: 8px;
+  }
+
+  .tech-item span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff
+  }
+</style>
+
     </head>
     <body>
         <!-- header -->
@@ -70,7 +93,7 @@
             <div class="row";">
                 <div class="col-6 d-flex align-items-center">
                     <div class="box">
-                        <h1 style="font-size: 1.8rem; line-height: 1.5rem; rgb(226, 221, 231)">Hola! <span class="titular">Yo soy Alejandro Martínez</span> </h1>
+                        <h1 style="font-size: 1.8rem; line-height: 1.5rem; color: rgb(226, 221, 231)">Hola! <span class="titular">Yo soy Alejandro Martínez</span> </h1>
                         <h2 style="color: #fff">
                                 <br>DISEÑO WEB, <span class="titular">PROGRAMACIÓN,<BR></span>CIBERSEGURIDAD
                         </h2>
@@ -99,45 +122,109 @@
                             <li><b>Fundamentos de Ciberseguridad</b> (Desafío LATAM)</li>
                         </ul>
 
-
-                    
-                    <h2 class="mb-5">Ciber <span class="titular">tools</span></h2>
-    
-                    <div class="d-flex flex-row mb-3 mt-3 justify-content-between">
-                        <ul>
-                            <li>Html 5</li>
-                            <li>Css 3</li>
-                            <li>Github</li>
-                            <li>Jquery</li>
-                        </ul>
-                        <ul>
-                            <li>PHP / Mysql</li>
-                        <li>Python</li>
-                        <li>Postgresql</li>
-                        
-                        <li>Django</li>
-                        </ul>
-
-
-                                            <ul>
-                            <li>Wordpress</li>
-                        <li>Moodle</li>
-                        <li>Figma</li>
-                        <li>Bootstrap</li>
-                        </ul>
-                        
-                        <ul>
-                            <li>AWS</li>
-                        <li>Windows Server</li>
-                        <li>Linux</li>
-                        <li>VirtualBox</li>
-                        </ul>                    </div>
                 </div>
+
                 <div class="col-7 d-flex justify-content-center">
                     <img src="img-row2.png" style="max-height: 600px; width: 100%">
                 </div>
 
             </div>
+            <div class="row">
+                <h2 class="mb-5">Ciber <span class="titular">herramientas</span></h2>
+
+<div class="container my-4">
+  <div class="row text-center">
+    <!-- Columna 1 -->
+    <div class="col-6 col-md-3">
+      <ul class="list-unstyled">
+        <li class="tech-item">
+          <img src="html.png" alt="HTML">
+          <span>HTML</span>
+        </li>
+        <li class="tech-item">
+          <img src="css3.png" alt="CSS3">
+          <span>CSS 3</span>
+        </li>
+        <li class="tech-item">
+          <img src="github.png" alt="Github">
+          <span>Github</span>
+        </li>
+        <li class="tech-item">
+          <img src="jquery.png" alt="jQuery">
+          <span>jQuery</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Columna 2 -->
+    <div class="col-6 col-md-3">
+      <ul class="list-unstyled">
+        <li class="tech-item">
+          <img src="php_mysql.png" alt="PHP / Mysql">
+          <span>PHP / Mysql</span>
+        </li>
+        <li class="tech-item">
+          <img src="python.png" alt="Python">
+          <span>Python</span>
+        </li>
+        <li class="tech-item">
+          <img src="postgresql.png" alt="Postgresql">
+          <span>Postgresql</span>
+        </li>
+        <li class="tech-item">
+          <img src="django.png" alt="Django">
+          <span>Django</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Columna 3 -->
+    <div class="col-6 col-md-3">
+      <ul class="list-unstyled">
+        <li class="tech-item">
+          <img src="wordpress.png" alt="Wordpress">
+          <span>Wordpress</span>
+        </li>
+        <li class="tech-item">
+          <img src="moodle.png" alt="Moodle">
+          <span>Moodle</span>
+        </li>
+        <li class="tech-item">
+          <img src="figma.png" alt="Figma">
+          <span>Figma</span>
+        </li>
+        <li class="tech-item">
+          <img src="bootstrap.png" alt="Bootstrap">
+          <span>Bootstrap</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Columna 4 -->
+    <div class="col-6 col-md-3">
+      <ul class="list-unstyled">
+        <li class="tech-item">
+          <img src="aws.png" alt="AWS">
+          <span>AWS</span>
+        </li>
+        <li class="tech-item">
+          <img src="winserver.png" alt="Windows Server">
+          <span>Windows Server</span>
+        </li>
+        <li class="tech-item">
+          <img src="linux.png" alt="Linux">
+          <span>Linux</span>
+        </li>
+        <li class="tech-item">
+          <img src="virtualbox.png" alt="VirtualBox">
+          <span>VirtualBox</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+            </div>
+
         </div>
     <main>
         <div class="container">
