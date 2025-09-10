@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: Regular;
+    font-style: normal;
+    font-size: 16px;
+  }
+
+
+.logotipo {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+  }
+
+h1{
+    font-size: 3.5em;
+    font-weight: 700;
+}
+
+h2{
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+
+
+  .bajada{
+    font-size: 1.3em;
+  }
+
+.padding-58{
+    padding-top: 58px;
+    padding-bottom: 58px;
+}
+
+
+.parallax-bg {
+    background-image: url('../img/paraucano-las-condes-1.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 50vh; /* Ajusta la altura según tus necesidades */
+}
+
+
+.parallax-bg2 {
+  background-image: url('../img/plaza-del-inca-las-condes.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 50vh; /* Ajusta la altura según tus necesidades */
+}
+
+.bg-lascondes{
+  background-image: url('../img/apoquindo-al-atardecer1.png');
+  background-size: cover;
+  background-position: bottom;
+  min-height: 70vh; /* Ajusta la altura según tus necesidades */
+  color: #fff;
+}
+
+.firma{
+  font-family: "Dr Sugiyama", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.5rem;
+  text-align: right;
+  text-shadow: 4px 10px 10px #000;
+}
+
+#quien-soy{
+  margin-bottom: 20px;
+}
+
+.ancho-completo img {
+  width: 100%; /* La imagen toma todo el ancho disponible */
+  height: auto; /* Mantiene la proporción y ajusta la altura */
+}
+
+.ancho-completo{
+  display: inline-block; /* Para ajustar la altura automáticamente */
+  width: 100%; /* Ancho del contenedor */
+  width: 100%;
+  background-color: #ebdfa6;
+}
+
+
+.box{
+  width: 100% !important;
+  margin-bottom: 1rem;
+  box-shadow: 0px 0px 10px #c39696
+}
+
+
+
+
+@media screen and (min-width: 560px) {
+    /* Aquí añade los estilos que deseas aplicar para pantallas con ancho máximo de 560px */
+    .logotipo{
+        font-size: 40px;
+        }
+
+    .box{
+      width: 18rem !important; 
+    }
+
+    #quien-soy{
+      margin-bottom: 0;
+    }
+
+  }
